@@ -1,0 +1,113 @@
+/* font-family: "Darker Grotesque", sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+/* 
+html {width: 100%; overflow: hidden;} */
+
+h1, h2, h3, h4, h5, h6,
+a, p, img, ul, ol, li, nav, section, body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Darker Grotesque";
+    font-weight: 400;
+    background-color: #121521;
+}
+
+.u-dflex-jcsb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.u-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 176px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40467C;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+/* HEADER */
+.head {
+    width: 1241px;
+    height: 140px;
+}
+
+.head__logo {
+    width: 130px;
+    height: 40px;
+}
+
+.head__ul {
+    width: 706px;
+    height: 27px;
+}
+
+.head__ref {
+    color: #fff;
+}
+/* MAIN */
+.present {
+    width: 1241px;
+    height: 750px;
+}
+
+.present__img {
+    height: 750px;
+    width: 711px;
+    /* background-image: url(img/roof-cimena.jpg);
+    background-repeat: no-repeat; */
+}
+
+.present__specific {
+    width: 452px;
+    height: 382px;
+}
+
+.present__firs-text {
+    font-size: 20px;
+    color: #B2B2D3;
+}
+
+.present__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.present__about {
+    font-size: 32px;
+    color: #B2B2D3;
+    line-height: 43px;
+    margin-top: 10px;
+}
+
+.present__buttons {
+    width: 410px;
+    height: 59px;
+    margin-top: 100px;
+}
+
+.present__noncolor-btn {
+    background-color: unset;
+    width: 204px;
+    border: 2px solid #fff;
+}
+
+.present__img {
+    overflow: hidden;
+}
